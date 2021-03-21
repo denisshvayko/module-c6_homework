@@ -1,0 +1,78 @@
+.wrapper{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background: dimgrey;
+	width: 800px;
+}
+.tools-panel .btn{
+	border-radius: 12px;
+}
+.tools-panel{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 800px;
+	height: 100px;
+}
+.j-btn-open{
+	width: 200px;
+	height: 50px;
+	background: aquamarine;
+	opacity: 0.5;
+}
+.j-btn-close{
+	width: 200px;
+	height: 50px;
+	background: #ed969e;
+	opacity: 0.5;
+}
+.chat-panel{
+	width: 600px;
+	min-height: 600px;
+	background: #95A5A6;
+	display: flex;
+	flex-direction: column;
+}
+/*.chat-panel.user{*/
+/*	margin-left: auto;*/
+/*}*/
+/*.chat-panel.user{*/
+/*	margin-right: auto;*/
+/*}*/
+.user-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 600px;
+	height: 100px;
+	background: #5a6268;
+	margin-bottom: 40px;
+}
+.user-block > *{
+	height: 100%;
+}
+.user-block > input {
+	width:60%;
+}
+.buttn-block {
+	display: flex;
+}
+.buttn-bloc .btn{
+	border-radius: 12px;
+}
+.j-btn-send{
+	background: #5C95B8;
+}
+
+/*.geo-btn {*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	justify-content: space-around;*/
+/*	width: 300px;*/
+/*	height: 100px;*/
+/*	background: #007bff;*/
+/*}*/
